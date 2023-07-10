@@ -8,16 +8,10 @@ header{
     width: 1920px;
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
-    /* justify-content: space-between; */
-
-    
 
 }
 .flower-heading{
     color: #272727;
-    
-   
-    
 }
 .flower-head-description{
     color: rgba(39, 39, 39, 0.60);
@@ -37,4 +31,62 @@ header{
     color: #FFF;
     padding: 20px 43px;
 
+}
+.featured-flower{
+    text-align: center;
+}
+.section-head{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+
+}
+.section-description{
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.pic-first{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 300px;
+    padding: 100px 78px 0px 76px;
+    margin-right: 24px;
+
+}
+
+.pic-second{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 300px;
+    padding: 100px 78px 0px 76px;
+    margin-right: 24px;
+
+}
+.pic-third{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 200px;
+    height: 300px;
+    padding: 100px 78px 0px 76px;
+
+}
+.pink{
+    display: flex;
+    justify-content: center;
+    
+}
+.pink-flower{
+    margin: 32px 130px 0 140px;
+    color: #272727;
+     text-align: center;
+     font-family: Lato;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 35px;
+     text-decoration-line: underline;
 }
