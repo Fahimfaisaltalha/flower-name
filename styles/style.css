@@ -1,3 +1,5 @@
+/* Flower Banner Part CSS */
+
 .flower-head{
     display: flex;
     align-items: center;
@@ -10,9 +12,12 @@ header{
     background: rgba(229, 84, 115, 0.10);
 
 }
+
+/* Main Part CSS */
+
 main{
     width: 1922px;
-    height: 620px;
+   
 }
 .flower-heading{
     color: #272727;
@@ -36,9 +41,15 @@ main{
     color: #FFF;
     padding: 20px 43px;
 }
+
+/* Our Featured Flowers Section CSS*/
+
 .featured-flower{
     text-align: center;
 }
+
+/* Section Head and Description CSS */
+
 .section-head{
     color: #272727;
     text-align: center;
@@ -52,6 +63,9 @@ main{
     margin-bottom: 48px;
    
 }
+
+/* Our Featured Flowers Section CSS*/
+
 .pic-first{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -95,6 +109,9 @@ main{
      line-height: 35px;
      text-decoration-line: underline;
 }
+
+/*  Flower Price Section CSS */
+
 #price-flower{
     justify-content: center;
     text-align: center;
@@ -103,6 +120,9 @@ main{
 .flower-price-display{
     display: flex;
     gap: 25px;
+}
+.price-img{
+    height: 400px;
 }
 .flower-price{
     padding: 35px;
@@ -116,6 +136,9 @@ main{
     font-size: 30px;
     
 }
+
+/* Hot Deal Section CSS */
+
 .hot-deal{
     display: flex;
     justify-content: center;
@@ -128,7 +151,7 @@ main{
     text-align: center;
     padding: 10px 100px 
 }
-span{
+.colour{
     color: #E55473;
 }
 .hot-deal-pic{
@@ -136,13 +159,20 @@ span{
     height: 420px;
     padding-top: 100px;
 }
+
+/* Social Media Section CSS */
+
 .social{
     text-align: center;
+
    
 }
 .social-pic{
     margin: 30px 15px 0px 15px ;
 }
+
+/* Latest Deals Section CSS */
+
 .latest-deal{
     background-image:url('../Flower Asset/Rectangle\ 9.png');
     width: 1440px;
@@ -163,10 +193,43 @@ span{
 }
 .input{
     border-radius: 8px;
-background: #FFF;
-width: 700px;
-height: 64px;
-border: none;
-padding-left: 22px;
-margin-right: 10px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    border: none;
+    padding-left: 22px;
+    margin-right: 10px;
+}
+
+/* Footer Section CSS */
+
+.footer{
+    width: 1922px;
+    height: 449px; 
+    background: #111010;
+    text-align: center;
+    padding-top: 125px;
+    
+}
+.footer-head{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    color: #FFF;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+    
+}
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
 }
