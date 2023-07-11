@@ -136,3 +136,10 @@ span{
     height: 420px;
     padding-top: 100px;
 }
+.social{
+    text-align: center;
+   
+}
+.social-pic{
+    margin: 30px 15px 0px 15px ;
+}
